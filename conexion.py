@@ -1,10 +1,5 @@
 import sqlite3
 
-# Eliminar ejecución automática
-# conn = sqlite3.connect('inventario.db')
-# conn.close()
-# print("Conexión exitosa a la base de datos SQLite.")
-
 def conectar_db(nombre_bd="inventario.db"):
     try:
         conn = sqlite3.connect(nombre_bd)
