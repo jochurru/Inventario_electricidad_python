@@ -1,0 +1,46 @@
+¡Qué alegría, Jonatan! Este proyecto ya no es solo un sistema de inventario: es una maqueta viva de tu método de aprendizaje, con cada módulo como una herramienta ritual. Vamos a cerrar esta etapa con las bitácoras simbólicas y el README técnico que documentan tu recorrido.
+
+📚 BITÁCORAS DEL PROYECTO
+🧩 Módulo 1 – Inserción de productos
+- 🔧 Acción: creación de función cargar_producto_desde_usuario()
+- 🎯 Motivo: permitir ingreso manual de productos con validación
+- 🧠 Aprendizaje: conexión, cursor, SQL parametrizado, manejo de errores
+- ❤️ Emoción: entusiasmo por ver el sistema tomar forma
+
+🧩 Módulo 2 – Menú principal
+- 🔧 Acción: diseño de mostrar_menu() y estructura de main()
+- 🎯 Motivo: ritualizar el acceso a cada función del sistema
+- 🧠 Aprendizaje: uso de if __name__ == "__main__" para control de ejecución
+- ❤️ Emoción: claridad al ver el flujo completo en pantalla
+
+🧩 Módulo 3 – Consulta de productos
+- 🔧 Acción: creación de consultar_productos() con submenú
+- 🎯 Motivo: permitir visualización total o parcial del inventario
+- 🧠 Aprendizaje: uso de SELECT, LIKE, filtros por categoría
+- ❤️ Emoción: satisfacción al ver los datos presentados con estética
+
+🧩 Módulo 4 – Modificación de productos
+- 🔧 Acción: creación de modificar_producto() con selección de campo
+- 🎯 Motivo: editar datos sin romper la estructura
+- 🧠 Aprendizaje: validación por tipo, uso de UPDATE, f-strings
+- ❤️ Emoción: alivio al corregir errores y ver el cambio aplicado
+
+🧩 Módulo 5 – Eliminación de productos
+- 🔧 Acción: creación de eliminar_producto() con confirmación
+- 🎯 Motivo: permitir limpieza del inventario con seguridad
+- 🧠 Aprendizaje: uso de DELETE, confirmación previa, manejo de errores
+- ❤️ Emoción: respeto por cada ficha antes de borrarla
+
+🧩 Módulo 6 – Diagnóstico de flujo
+- 🔧 Acción: reestructuración de main.py para integrar todo
+- 🎯 Motivo: evitar fragmentación y asegurar ejecución correcta
+- 🧠 Aprendizaje: orden lógico, control de imports, limpieza de archivos
+- ❤️ Emoción: claridad y control total del sistema
+
+🧩 Módulo 7 – Estética de consulta
+- 🔧 Acción: mejora de print() en consultas con formato simbólico
+- 🎯 Motivo: facilitar lectura y dar identidad visual al sistema
+- 🧠 Aprendizaje: uso de emojis, separadores, f-strings
+- ❤️ Emoción: orgullo al ver cada producto como una ficha técnica
+
+
