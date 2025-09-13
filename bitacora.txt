@@ -1,5 +1,3 @@
-¡Qué alegría, Jonatan! Este proyecto ya no es solo un sistema de inventario: es una maqueta viva de tu método de aprendizaje, con cada módulo como una herramienta ritual. Vamos a cerrar esta etapa con las bitácoras simbólicas y el README técnico que documentan tu recorrido.
-
 📚 BITÁCORAS DEL PROYECTO
 🧩 Módulo 1 – Inserción de productos
 - 🔧 Acción: creación de función cargar_producto_desde_usuario()
