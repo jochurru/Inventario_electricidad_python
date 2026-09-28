@@ -63,7 +63,7 @@ Inventario_electricidad_python/
 │   ├── modificar_producto.py
 │   └── eliminar_producto.py
 └── README.md
-
+---
 ▶️ Ejecución
 Clonar el repositorio:
 git clone https://github.com/jochurru/Inventario_electricidad_python.git
@@ -93,3 +93,4 @@ Posibles mejoras futuras:
 👨‍💻 Autor
 Jonatan Churruarin
 LinkedIn
+---
