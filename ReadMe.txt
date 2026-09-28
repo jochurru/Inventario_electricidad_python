@@ -1,58 +1,65 @@
-# 🧰 Inventario Eléctrico – Proyecto Python + SQLite
+# ⚡ Inventario Eléctrico — Python + SQLite
 
-Este sistema permite gestionar un inventario de productos eléctricos con carga, consulta, modificación y eliminación, todo desde terminal y con lógica simbólica.
+Sistema de gestión de inventario desarrollado en Python con persistencia en SQLite.
 
----
-
-## 📦 Funcionalidades
-
-- Cargar nuevos productos con validación
-- Consultar productos por nombre, categoría, stock o precio
-- Modificar campos específicos de un producto
-- Eliminar productos con confirmación previa
-- Menú principal interactivo y submenús por función
+El proyecto permite administrar productos eléctricos desde una interfaz de terminal, aplicando operaciones CRUD, validaciones de datos y una estructura modular para separar responsabilidades.
 
 ---
 
-## 🧱 Estructura del proyecto
-Inventario_Electricidad/ ├── main.py ├── conexion.py ├── funciones/ │   
-├── init.py │   ├── insertar_producto.py │   ├── consultar_producto.py │   
-├── modificar_producto.py │   └── eliminar_producto.py
+## 🚀 Funcionalidades
 
-
----
-
-## 🗃️ Base de datos
-
-- SQLite local
-- Tabla `productos` con los siguientes campos:
-  - `id`, `nombre`, `marca`, `categoria`, `precio`, `stock`, `descripcion`
+- Alta de productos
+- Consulta de inventario
+- Búsqueda y filtros por distintos campos
+- Modificación de productos
+- Eliminación con confirmación
+- Persistencia de datos con SQLite
+- Menú interactivo por terminal
+- Código organizado en módulos independientes
 
 ---
 
-## 🧠 Requisitos
+## 🛠️ Tecnologías
 
-- Python 3.x
-- No requiere librerías externas
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+
+- Python
+- SQLite
+- SQL
+- Programación modular
+- Manejo de errores
+- Validación de datos
 
 ---
 
-## 🚀 Ejecución
+## 🗃️ Modelo de datos
 
-```bash
-python main.py
+La aplicación utiliza una base SQLite con una tabla principal de productos.
 
+Campos principales:
 
-👨‍💻 Autor
-Proyecto desarrollado por Jonatan Churruarin, técnico autodidacta con experiencia en:
-- Modularización de sistemas
-- Documentación simbólica aplicada a procesos técnicos
-- Gestión de inventario con Python + SQLite
-- Diseño de interfaces terminales funcionales
-Este proyecto forma parte de su laboratorio de aprendizaje aplicado, con enfoque en resiliencia, claridad estructural y automatización de tareas administrativas.
+- `id`
+- `nombre`
+- `marca`
+- `categoria`
+- `precio`
+- `stock`
+- `descripcion`
 
+---
 
-🧭 Estado del proyecto
-✅ Funcional
-🛠️ Listo para futuras mejoras (interfaz visual, exportación)
-📁 Documentado y estructurado para uso pedagógico y técnico
+## 📁 Estructura del proyecto
+
+```text
+Inventario_electricidad_python/
+├── main.py
+├── conexion.py
+├── inventario.db
+├── funciones/
+│   ├── __init__.py
+│   ├── insertar_producto.py
+│   ├── consultar_producto.py
+│   ├── modificar_producto.py
+│   └── eliminar_producto.py
+└── README.md
