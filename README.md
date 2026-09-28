@@ -35,7 +35,7 @@ El proyecto permite administrar productos eléctricos desde una interfaz de term
 
 ## 🗃️ Modelo de datos
 
-La aplicación utiliza una base SQLite con una tabla principal de productos.
+La aplicación utiliza una base de datos SQLite con una tabla principal de productos.
 
 Campos principales:
 
@@ -63,34 +63,60 @@ Inventario_electricidad_python/
 │   ├── modificar_producto.py
 │   └── eliminar_producto.py
 └── README.md
+```
+
 ---
-▶️ Ejecución
+
+## ▶️ Ejecución
+
 Clonar el repositorio:
+
+```bash
 git clone https://github.com/jochurru/Inventario_electricidad_python.git
 cd Inventario_electricidad_python
+```
 
-Ejecutar:
+Ejecutar la aplicación:
+
+```bash
 python main.py
+```
 
-No requiere librerías externas.
-🧠 Conceptos aplicados
-Este proyecto me permitió trabajar sobre:
-- conexión y operaciones con SQLite;
-- consultas SQL parametrizadas;
-- separación de responsabilidades;
-- modularización de funciones;
-- validación de entradas;
-- flujo CRUD completo;
-- manejo de errores y control de ejecución.
-📌 Estado
-Proyecto funcional y finalizado como práctica de Python, SQL y bases de datos.
-Posibles mejoras futuras:
-- interfaz gráfica;
-- exportación a CSV/Excel;
-- reportes de stock;
-- alertas por bajo inventario;
-- migración a una base de datos cliente-servidor.
-👨‍💻 Autor
-Jonatan Churruarin
-LinkedIn
+No requiere librerías externas adicionales.
+
 ---
+
+## 🧠 Conceptos aplicados
+
+Este proyecto me permitió trabajar con:
+
+- conexión y operaciones sobre SQLite;
+- consultas SQL parametrizadas;
+- operaciones CRUD;
+- separación de responsabilidades;
+- modularización del código;
+- validación de entradas;
+- manejo de errores;
+- control del flujo principal de ejecución.
+
+---
+
+## 📌 Estado del proyecto
+
+Proyecto funcional desarrollado como práctica de Python, SQL y bases de datos.
+
+Posibles mejoras futuras:
+
+- interfaz gráfica;
+- exportación a CSV o Excel;
+- reportes de stock;
+- alertas de bajo inventario;
+- migración a una base de datos cliente-servidor.
+
+---
+
+## 👨‍💻 Autor
+
+**Jonatan Churruarin**
+
+[LinkedIn](https://www.linkedin.com/in/jonatan-churruarin/)
