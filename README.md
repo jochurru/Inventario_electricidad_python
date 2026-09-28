@@ -63,3 +63,33 @@ Inventario_electricidad_python/
 │   ├── modificar_producto.py
 │   └── eliminar_producto.py
 └── README.md
+
+▶️ Ejecución
+Clonar el repositorio:
+git clone https://github.com/jochurru/Inventario_electricidad_python.git
+cd Inventario_electricidad_python
+
+Ejecutar:
+python main.py
+
+No requiere librerías externas.
+🧠 Conceptos aplicados
+Este proyecto me permitió trabajar sobre:
+- conexión y operaciones con SQLite;
+- consultas SQL parametrizadas;
+- separación de responsabilidades;
+- modularización de funciones;
+- validación de entradas;
+- flujo CRUD completo;
+- manejo de errores y control de ejecución.
+📌 Estado
+Proyecto funcional y finalizado como práctica de Python, SQL y bases de datos.
+Posibles mejoras futuras:
+- interfaz gráfica;
+- exportación a CSV/Excel;
+- reportes de stock;
+- alertas por bajo inventario;
+- migración a una base de datos cliente-servidor.
+👨‍💻 Autor
+Jonatan Churruarin
+LinkedIn
